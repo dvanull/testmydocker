@@ -1,0 +1,14 @@
+:443, www.bingtranslate.cf
+tls example@test.com
+route {
+	forward_proxy {
+		basic_auth bdihngtytre4511 hvf0ol8hyg569k
+		hide_ip
+		hide_via
+		probe_resistance
+	}
+	reverse_proxy https://www.ted.com {
+		header_up Host {upstream_hostport}
+		header_up x-Forwarded-Host {host}
+	}
+}
