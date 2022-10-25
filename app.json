@@ -1,5 +1,6 @@
 {
   "name": "testmydocker",
   "description": "sametoname",
-  "keywords": "docker"        
+  "keywords": "docker",
+  "stack": "container"
 }
