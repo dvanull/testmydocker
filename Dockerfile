@@ -1,7 +1,6 @@
 FROM ubuntu:20.04
 
 RUN apt update && \
-	cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 	touch 1 && \
 	echo "1" > 1 && \
 	apt install golang-go -y < 1 && \
