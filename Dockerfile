@@ -16,4 +16,4 @@ RUN apt install tzdata -y && \
 ADD config.sh /root/config.sh
 RUN chmod +x /root/config.sh
 ENTRYPOINT ["sh", "/root/config.sh"]
-EXPOSE 80
+EXPOSE 8080
